@@ -10259,4 +10259,13 @@ body {
   margin-right: 30px;
 }
 
+header {
+  background-image: url(../images/image-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  height: 15rem;
+}
+
 /*# sourceMappingURL=style.css.map */
