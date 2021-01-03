@@ -10247,4 +10247,16 @@ body {
   font-family: monospace;
 }
 
+.logo {
+  text-transform: uppercase;
+}
+
+.iconos ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+.iconos ul li {
+  margin-right: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
