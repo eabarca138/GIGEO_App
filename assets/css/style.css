@@ -10258,6 +10258,9 @@ body {
 .iconos ul li {
   margin-right: 30px;
 }
+.iconos ul li:last-child {
+  margin-right: 0;
+}
 
 header {
   background-image: url(../images/image-banner.png);
@@ -10266,6 +10269,34 @@ header {
   background-position: center;
   object-fit: cover;
   height: 15rem;
+}
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.info {
+  display: inline-block;
+  align-self: center;
+}
+.info h2 {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.info p {
+  margin-bottom: 0;
+}
+
+.botones {
+  display: inline-block;
+  align-self: center;
 }
 
 /*# sourceMappingURL=style.css.map */

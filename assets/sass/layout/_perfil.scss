@@ -1,0 +1,27 @@
+.perfil{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.info{
+    display: inline-block;
+    align-self: center;
+ h2{
+    text-transform: capitalize;
+    margin-bottom: 0;
+ }
+ p{
+     margin-bottom: 0;
+ }
+}
+
+.botones{
+    display: inline-block;
+    align-self: center;
+}
