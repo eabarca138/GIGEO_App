@@ -1,16 +1,29 @@
-.logo{
-    text-transform: uppercase;
-}
-
-    .iconos{
-        ul{
+    .barraNav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo{
+            width: 9.375rem;
+            height: 5.3125rem;
+        }
+        &__iconos{
+            display: flex;
             list-style: none;
-            margin-bottom: 0;
-            li{
-                margin-right: 30px;
-                &:last-child{
-                    margin-right: 0;
-                }
-            }
+            & li{
+                margin-right: 1.875rem;
+                font-size: 1.5625rem;
+        }
         }
     }
+
+    @media only screen and (min-width: 920px) {
+        .fa-bars {
+          display: none;
+        }
+      }
+      
+      @media only screen and (max-width: 920px) {
+        .fa-search, .fa-video, .fa-plus, .fa-bell{
+          display: none;;
+        }
+      }

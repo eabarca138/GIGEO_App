@@ -10239,29 +10239,50 @@ h3 {
   box-sizing: border-box;
 }
 
+ul {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #3f719b;
 }
 
 body {
   font-family: monospace;
 }
 
-.logo {
-  text-transform: uppercase;
+.barraNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.iconos ul {
+.barraNav__logo {
+  width: 9.375rem;
+  height: 5.3125rem;
+}
+.barraNav__iconos {
+  display: flex;
   list-style: none;
-  margin-bottom: 0;
 }
-.iconos ul li {
-  margin-right: 30px;
-}
-.iconos ul li:last-child {
-  margin-right: 0;
+.barraNav__iconos li {
+  margin-right: 1.875rem;
+  font-size: 1.5625rem;
 }
 
+@media only screen and (min-width: 920px) {
+  .fa-bars {
+    display: none;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .fa-search, .fa-video, .fa-plus, .fa-bell {
+    display: none;
+  }
+}
 header {
   background-image: url(../images/image-banner.png);
   background-repeat: no-repeat;
@@ -10295,7 +10316,6 @@ header {
 }
 
 .botones {
-  display: inline-block;
   align-self: center;
 }
 

@@ -15,62 +15,135 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-
     <!-- NAVBAR -->
-    <nav class="container navbar navbar-expand-lg">
-        <a href="#" class="navbar-brand logo">
-            <h1>gigeo<span>art</span></h1>
-        </a>
+    <nav class="container barraNav">
+      
+        <img class="barraNav__logo" src="assets/images/logo_gigeo_art.svg" alt="logo GIGEO">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars fa-2x"></i>
-          </button>
-
-        <div class="iconos collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class=""><i class="fas fa-search fa-2x"></i></li>
-                <li class=""><i class="fas fa-video fa-2x"></i></li>
-                <li class=""><i class="fas fa-plus fa-2x"></i></li>
-                <li class=""><i class="far fa-bell fa-2x"></i></li>
-            </ul>
-        </div>
+        <ul class="barraNav__iconos">
+          <li>
+            <a href="#"><i class="fas fa-search"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-video"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-plus"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="far fa-bell"></i></a>
+          </li>
+          <i class="fas fa-bars fa-2x"></i>
+        </ul>
     </nav>
 
     <!-- HEADER -->
-    <header>
-    </header>
+    <header></header>
 
     <!-- PERFIL -->
     <section class="perfil container">
-        <div class="d-flex">
-        <img src="assets/images/profile-image.png" alt="imagen-perfil">
-            
-        <div class="info">
-            <h2>yuki mukami</h2>
-            <p class="text-muted">30.000 segudores</p>
-        </div>
-    </div>
+      <div class="d-flex">
+        <img src="assets/images/profile-image.png" alt="imagen-perfil" />
 
-        <div class="botones">
-            <button class="btn-info">Mensaje</button>
-            <button class="btn-danger">Seguir</button>
+        <div class="info">
+          <h2>yuki mukami</h2>
+          <p class="text-muted">30.000 segudores</p>
         </div>
+      </div>
+
+      <div class="botones d-none d-sm-inline-block">
+        <button class="btn-info">Mensaje</button>
+        <button class="btn-danger">Seguir</button>
+      </div>
     </section>
 
-    <hr>
+    <hr />
 
-    <main>
+    <!-- SECCION PRINCIPAL -->
 
+    <main class="container">
+      <h3>Videos populares</h3>
+
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img
+            src="assets/images/image-1.png"
+            alt="Después de la vela"
+            class="img-fluid"
+          />
+          <h4>Después de la vela - Yuki Mukami</h4>
+          <p>16k visitas - 1 semana atrás</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img
+            src="assets/images/image-2.png"
+            alt="Far Away"
+            class="img-fluid"
+          />
+          <h4>Far Away - Yuki Mukami</h4>
+          <p>100k visitas - 1 mes atrás</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img src="assets/images/image-3.png" alt="City" class="img-fluid" />
+          <h4>City - Yuki Mukami</h4>
+          <p>20k visitas - 1 mes atrás</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img
+            src="assets/images/image-4.png"
+            alt="A Yuki  Tale"
+            class="img-fluid"
+          />
+          <h4>A Yuki Tale - Yuki Mukami</h4>
+          <p>1m visitas - 1 año atrás</p>
+        </div>
+
+
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img
+            src="assets/images/image-5.png"
+            alt="Mapocho"
+            class="img-fluid"
+          />
+          <h4>Mapocho - Yuki Mukami</h4>
+          <p>100k visitas - 1 mes atrás</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img
+            src="assets/images/image-6.png"
+            alt="Lucky Days"
+            class="img-fluid"
+          />
+          <h4>Lucky Days - Yuki Mukami</h4>
+          <p>40k visitas - 3 meses atrás</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img
+            src="assets/images/image-7.png"
+            alt="30 days in my house"
+            class="img-fluid"
+          />
+          <h4>30 days in My House - Yuki Mukami</h4>
+          <p>10k visitas - 4 meses atrás</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <img
+            src="assets/images/image-8.png"
+            alt="Santiago"
+            class="img-fluid"
+          />
+          <h4>Santiago - Yuki Mukami</h4>
+          <p>40k visitas - 3 meses atrás</p>
+        </div>
+      </div>
     </main>
-
-
-
-
-
-
-
-
-
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
