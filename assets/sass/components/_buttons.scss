@@ -1,0 +1,21 @@
+.botones{
+    align-self: center;
+}
+    .boton{
+        color: white;
+        padding: 10px;
+        &--mensaje{
+            background-color: $botonmensaje;
+            border: $botonmensaje;
+            &:hover{
+                    background-color: $botonmensaje-hover;
+                  }
+            }
+        &--seguir{
+            background-color: $botonseguir;
+            border: $botonseguir;
+            &:hover {
+                background-color: $botonseguir-hover;
+            }
+        }
+    }

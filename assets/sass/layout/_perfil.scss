@@ -1,26 +1,26 @@
 .perfil{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
-.perfil img{
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-}
-
-.info{
-    display: inline-block;
-    align-self: center;
- h2{
-    text-transform: capitalize;
-    margin-bottom: 0;
- }
- p{
-     margin-bottom: 0;
- }
-}
-
-.botones{
-    align-self: center;
-}
+    .info{
+        display: flex;
+        align-items: center;
+        & img{
+            border-radius: 50%;
+            width: 4.375rem;
+            height: 4.375rem;
+        }
+        &__texto{
+            display: inline-block;
+            margin-left: 15px;
+            & h2{
+                display: inline-block;
+                text-transform: capitalize;
+            }
+            & p{
+                margin-left: 3px;
+                color: $gris;
+            }
+        }
+    }

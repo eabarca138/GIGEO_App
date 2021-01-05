@@ -10239,7 +10239,7 @@ h3 {
   box-sizing: border-box;
 }
 
-ul {
+ul, h2, p, hr {
   margin: 0;
 }
 
@@ -10295,28 +10295,52 @@ header {
 .perfil {
   display: flex;
   justify-content: space-between;
-}
-
-.perfil img {
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  align-items: center;
 }
 
 .info {
+  display: flex;
+  align-items: center;
+}
+.info img {
+  border-radius: 50%;
+  width: 4.375rem;
+  height: 4.375rem;
+}
+.info__texto {
   display: inline-block;
-  align-self: center;
+  margin-left: 15px;
 }
-.info h2 {
+.info__texto h2 {
+  display: inline-block;
   text-transform: capitalize;
-  margin-bottom: 0;
 }
-.info p {
-  margin-bottom: 0;
+.info__texto p {
+  margin-left: 3px;
+  color: #6c757d;
 }
 
 .botones {
   align-self: center;
+}
+
+.boton {
+  color: white;
+  padding: 10px;
+}
+.boton--mensaje {
+  background-color: #17a2b8;
+  border: #17a2b8;
+}
+.boton--mensaje:hover {
+  background-color: #138496;
+}
+.boton--seguir {
+  background-color: #dc3545;
+  border: #dc3545;
+}
+.boton--seguir:hover {
+  background-color: #c82333;
 }
 
 /*# sourceMappingURL=style.css.map */
