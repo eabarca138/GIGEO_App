@@ -19,8 +19,21 @@
                 text-transform: capitalize;
             }
             & p{
-                margin-left: 3px;
+                margin-left: 5px;
                 color: $gris;
             }
         }
     }
+
+      
+      @media only screen and (max-width: 576px) {
+        .botones{
+          display: none;
+        }
+        .perfil{
+            justify-content: center;
+        }
+        hr{
+            display: none;
+        }
+      }

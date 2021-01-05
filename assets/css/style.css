@@ -10289,9 +10289,29 @@ header {
   background-size: cover;
   background-position: center;
   object-fit: cover;
-  height: 15rem;
+  height: 7rem;
 }
 
+@media (min-width: 768px) {
+  header {
+    height: 10rem;
+  }
+}
+@media (min-width: 992px) {
+  header {
+    height: 13rem;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    height: 15rem;
+  }
+}
+@media (min-width: 1400px) {
+  header {
+    height: 15rem;
+  }
+}
 .perfil {
   display: flex;
   justify-content: space-between;
@@ -10316,10 +10336,57 @@ header {
   text-transform: capitalize;
 }
 .info__texto p {
-  margin-left: 3px;
+  margin-left: 5px;
   color: #6c757d;
 }
 
+@media only screen and (max-width: 576px) {
+  .botones {
+    display: none;
+  }
+
+  .perfil {
+    justify-content: center;
+  }
+
+  hr {
+    display: none;
+  }
+}
+body {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+}
+
+.contenedor {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .contenedor {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .contenedor {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .contenedor {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+@media (min-width: 1400px) {
+  .contenedor {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
 .botones {
   align-self: center;
 }
