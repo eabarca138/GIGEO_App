@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* COLORES */
+/* FUENTES */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -10252,7 +10254,23 @@ a:hover {
 }
 
 body {
-  font-family: monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.6875rem;
+}
+
+h3 {
+  font-size: 1.25rem;
 }
 
 .barraNav {
@@ -10260,17 +10278,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.barraNav__logo {
-  width: 9.375rem;
-  height: 5.3125rem;
-}
 .barraNav__iconos {
   display: flex;
   list-style: none;
-}
-.barraNav__iconos li {
-  margin-right: 1.875rem;
-  font-size: 1.5625rem;
 }
 
 @media only screen and (min-width: 920px) {
@@ -10322,23 +10332,6 @@ header {
   display: flex;
   align-items: center;
 }
-.info img {
-  border-radius: 50%;
-  width: 4.375rem;
-  height: 4.375rem;
-}
-.info__texto {
-  display: inline-block;
-  margin-left: 15px;
-}
-.info__texto h2 {
-  display: inline-block;
-  text-transform: capitalize;
-}
-.info__texto p {
-  margin-left: 5px;
-  color: #6c757d;
-}
 
 @media only screen and (max-width: 576px) {
   .botones {
@@ -10351,6 +10344,16 @@ header {
 
   hr {
     display: none;
+  }
+}
+h2 {
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+@media only screen and (max-width: 576px) {
+  h2 {
+    text-align: center;
   }
 }
 body {
@@ -10387,27 +10390,76 @@ body {
     padding-right: 100px;
   }
 }
+/* BOTONES PERFIL */
 .botones {
   align-self: center;
 }
 
 .boton {
   color: white;
-  padding: 10px;
+  padding: 10px 16px;
 }
 .boton--mensaje {
-  background-color: #17a2b8;
-  border: #17a2b8;
+  background-color: #92DCE5;
+  border: #92DCE5;
+  margin-right: 10px;
 }
 .boton--mensaje:hover {
   background-color: #138496;
 }
 .boton--seguir {
-  background-color: #dc3545;
-  border: #dc3545;
+  background-color: #EF6461;
+  border: #EF6461;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 .boton--seguir:hover {
   background-color: #c82333;
+}
+
+@media only screen and (max-width: 576px) {
+  .video {
+    padding-left: 3.3125rem;
+    padding-right: 3.3125rem;
+  }
+}
+.video {
+  margin-bottom: 1.25rem;
+}
+.video p {
+  color: gray;
+}
+
+.info {
+  padding-top: 0.8125rem;
+  padding-bottom: 0.8125rem;
+}
+.info img {
+  border-radius: 50%;
+  width: 4.375rem;
+  height: 4.375rem;
+}
+.info__texto {
+  margin-left: 0.9375rem;
+}
+.info__texto h1 {
+  text-transform: capitalize;
+}
+.info__texto p {
+  margin-left: 0.3125rem;
+  color: #6c757d;
+}
+
+.barraNav__logo {
+  width: 9.375rem;
+  height: 5.3125rem;
+}
+.barraNav__iconos li {
+  margin-right: 1.875rem;
+  font-size: 1.5625rem;
+}
+.barraNav__iconos li:last-of-type {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

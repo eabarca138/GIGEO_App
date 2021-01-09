@@ -1,12 +1,16 @@
+
+/* BOTONES PERFIL */
+
 .botones{
     align-self: center;
 }
     .boton{
         color: white;
-        padding: 10px;
+        padding: 10px 16px;
         &--mensaje{
             background-color: $botonmensaje;
             border: $botonmensaje;
+            margin-right: 10px;
             &:hover{
                     background-color: $botonmensaje-hover;
                   }
@@ -14,6 +18,8 @@
         &--seguir{
             background-color: $botonseguir;
             border: $botonseguir;
+            padding-right: 25px;
+            padding-left: 25px;
             &:hover {
                 background-color: $botonseguir-hover;
             }

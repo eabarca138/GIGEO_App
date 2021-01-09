@@ -2,17 +2,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        &__logo{
-            width: 9.375rem;
-            height: 5.3125rem;
-        }
         &__iconos{
             display: flex;
             list-style: none;
-            & li{
-                margin-right: 1.875rem;
-                font-size: 1.5625rem;
-        }
         }
     }
 

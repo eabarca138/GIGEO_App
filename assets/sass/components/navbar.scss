@@ -1,0 +1,15 @@
+.barraNav{
+    &__logo{
+        width: 9.375rem;
+        height: 5.3125rem;
+    }
+    &__iconos{
+        li{
+            margin-right: 1.875rem;
+            font-size: 1.5625rem;
+            &:last-of-type{
+              margin-right: 0;
+            }
+    }
+    }
+}

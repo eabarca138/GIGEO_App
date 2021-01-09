@@ -6,23 +6,6 @@
     .info{
         display: flex;
         align-items: center;
-        & img{
-            border-radius: 50%;
-            width: 4.375rem;
-            height: 4.375rem;
-        }
-        &__texto{
-            display: inline-block;
-            margin-left: 15px;
-            & h2{
-                display: inline-block;
-                text-transform: capitalize;
-            }
-            & p{
-                margin-left: 5px;
-                color: $gris;
-            }
-        }
     }
 
       

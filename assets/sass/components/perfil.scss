@@ -1,0 +1,19 @@
+    .info{
+        padding-top: 0.8125rem;
+        padding-bottom: 0.8125rem;
+        img{
+            border-radius: 50%;
+            width: 4.375rem;
+            height: 4.375rem;
+        }
+        &__texto{
+            margin-left: 0.9375rem;
+             h1{
+                text-transform: capitalize;
+            }
+             p{
+                margin-left: 0.3125rem;
+                color: $gris;
+            }
+        }
+    }
